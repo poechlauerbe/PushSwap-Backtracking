@@ -28,14 +28,24 @@ Instead of trial and error, I used a smarter (and faster) approach in the end.
 
 ## Instructions for Use
 
-### Compilation
 
-Use the provided Makefile to compile the `push_swap` executable:
-
+1. Use the provided Makefile to compile the `push_swap` executable:
 ```bash
 make
+```
 
+2. Run the push_swap executable with the desired arguments:
+```bash
+./push_swap [arguments]
+```
+Replace [arguments] with any integers you like to sort.
 
+For example:
+
+```bash
+./push_swap 4 2 7 1 5
+```
+This would execute the push_swap program with the list of integers 4 2 7 1 5.
 
 ## Fun Exercise:
 
